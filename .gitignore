@@ -1,0 +1,5 @@
+.aws-sam
+.idea
+bin
+obj
+.DS_Store
