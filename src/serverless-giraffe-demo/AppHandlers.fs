@@ -1,6 +1,7 @@
 ﻿module AppHandlers
 
 open System
+open System.Text.Json
 open Microsoft.Extensions.Logging
 open Giraffe
 open Microsoft.AspNetCore.Http
@@ -10,15 +11,17 @@ open FSharp.AWS.DynamoDB
 open FSharp.Data
 
 
+
 let indexHandler  =
     fun (next : HttpFunc) (ctx : HttpContext) ->
 
-        text "Serverless Giraffe Web API" next ctx
+        json "Serverless Giraffe Web API" next ctx
 
 let arrayExampleHandler (itemCount:int) =
     fun (next : HttpFunc) (ctx : HttpContext) ->
-        let values = seq { for a in 1 .. itemCount do yield sprintf "value%i" a }
-        text (String.concat ", " values) next ctx
+        
+        let values = seq { for a in 1 .. itemCount do yield sprintf "value %i" a }
+        json values next ctx
 
 let webApp:HttpHandler =
     choose [
