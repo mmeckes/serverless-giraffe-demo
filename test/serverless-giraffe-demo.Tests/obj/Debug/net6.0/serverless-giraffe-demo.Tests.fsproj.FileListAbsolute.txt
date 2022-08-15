@@ -1,4 +1,0 @@
-/Users/mmeckes/projects/serverless-giraffe-demo/test/serverless-giraffe-demo.Tests/obj/Debug/net6.0/serverless-giraffe-demo.Tests.fsproj.AssemblyReference.cache
-/Users/mmeckes/projects/serverless-giraffe-demo/test/serverless-giraffe-demo.Tests/obj/Debug/net6.0/serverless-giraffe-demo.Tests.AssemblyInfoInputs.cache
-/Users/mmeckes/projects/serverless-giraffe-demo/test/serverless-giraffe-demo.Tests/obj/Debug/net6.0/serverless-giraffe-demo.Tests.AssemblyInfo.fs
-/Users/mmeckes/projects/serverless-giraffe-demo/test/serverless-giraffe-demo.Tests/obj/Debug/net6.0/serverless-giraffe-demo.Tests.MvcApplicationPartsAssemblyInfo.cache
