@@ -1,0 +1,174 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mmeckes/projects/serverless-giraffe-demo/test/serverless-giraffe-demo.Tests/serverless-giraffe-demo.Tests.fsproj": {}
+  },
+  "projects": {
+    "/Users/mmeckes/projects/serverless-giraffe-demo/src/serverless-giraffe-demo/serverless-giraffe-demo.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mmeckes/projects/serverless-giraffe-demo/src/serverless-giraffe-demo/serverless-giraffe-demo.fsproj",
+        "projectName": "serverless-giraffe-demo",
+        "projectPath": "/Users/mmeckes/projects/serverless-giraffe-demo/src/serverless-giraffe-demo/serverless-giraffe-demo.fsproj",
+        "packagesPath": "/Users/mmeckes/.nuget/packages/",
+        "outputPath": "/Users/mmeckes/projects/serverless-giraffe-demo/src/serverless-giraffe-demo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mmeckes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Amazon.Lambda.AspNetCoreServer": {
+              "target": "Package",
+              "version": "[7.2.0, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "generatePathProperty": true
+            },
+            "Giraffe": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.osx-arm64",
+              "version": "[6.0.1, 6.0.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mmeckes/projects/serverless-giraffe-demo/test/serverless-giraffe-demo.Tests/serverless-giraffe-demo.Tests.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mmeckes/projects/serverless-giraffe-demo/test/serverless-giraffe-demo.Tests/serverless-giraffe-demo.Tests.fsproj",
+        "projectName": "serverless-giraffe-demo.Tests",
+        "projectPath": "/Users/mmeckes/projects/serverless-giraffe-demo/test/serverless-giraffe-demo.Tests/serverless-giraffe-demo.Tests.fsproj",
+        "packagesPath": "/Users/mmeckes/.nuget/packages/",
+        "outputPath": "/Users/mmeckes/projects/serverless-giraffe-demo/test/serverless-giraffe-demo.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mmeckes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mmeckes/projects/serverless-giraffe-demo/src/serverless-giraffe-demo/serverless-giraffe-demo.fsproj": {
+                "projectPath": "/Users/mmeckes/projects/serverless-giraffe-demo/src/serverless-giraffe-demo/serverless-giraffe-demo.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Amazon.Lambda.APIGatewayEvents": {
+              "target": "Package",
+              "version": "[2.5.0, )",
+              "generatePathProperty": true
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "generatePathProperty": true
+            },
+            "Amazon.Lambda.TestUtilities": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.5.0, )",
+              "generatePathProperty": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.3.1, )",
+              "generatePathProperty": true
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.3.1, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

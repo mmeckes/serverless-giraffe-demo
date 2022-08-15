@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/mmeckes/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/mmeckes/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/mmeckes/.nuget/packages/" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk/15.5.0/build/netcoreapp1.0/Microsoft.Net.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk/15.5.0/build/netcoreapp1.0/Microsoft.Net.Test.Sdk.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.core/2.3.1/build/xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core/2.3.1/build/xunit.core.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_NET_Test_Sdk Condition=" '$(PkgMicrosoft_NET_Test_Sdk)' == '' ">/Users/mmeckes/.nuget/packages/microsoft.net.test.sdk/15.5.0</PkgMicrosoft_NET_Test_Sdk>
+    <Pkgxunit_runner_visualstudio Condition=" '$(Pkgxunit_runner_visualstudio)' == '' ">/Users/mmeckes/.nuget/packages/xunit.runner.visualstudio/2.3.1</Pkgxunit_runner_visualstudio>
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">/Users/mmeckes/.nuget/packages/xunit.analyzers/0.7.0</Pkgxunit_analyzers>
+    <Pkgxunit Condition=" '$(Pkgxunit)' == '' ">/Users/mmeckes/.nuget/packages/xunit/2.3.1</Pkgxunit>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/Users/mmeckes/.nuget/packages/fsharp.core/6.0.1</PkgFSharp_Core>
+    <PkgAmazon_Lambda_Core Condition=" '$(PkgAmazon_Lambda_Core)' == '' ">/Users/mmeckes/.nuget/packages/amazon.lambda.core/2.1.0</PkgAmazon_Lambda_Core>
+    <PkgAmazon_Lambda_APIGatewayEvents Condition=" '$(PkgAmazon_Lambda_APIGatewayEvents)' == '' ">/Users/mmeckes/.nuget/packages/amazon.lambda.apigatewayevents/2.5.0</PkgAmazon_Lambda_APIGatewayEvents>
+    <PkgAmazon_Lambda_TestUtilities Condition=" '$(PkgAmazon_Lambda_TestUtilities)' == '' ">/Users/mmeckes/.nuget/packages/amazon.lambda.testutilities/2.0.0</PkgAmazon_Lambda_TestUtilities>
+  </PropertyGroup>
+</Project>

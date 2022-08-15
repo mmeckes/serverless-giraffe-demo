@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/mmeckes/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/mmeckes/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/mmeckes/.nuget/packages/" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/Users/mmeckes/.nuget/packages/fsharp.core/6.0.5</PkgFSharp_Core>
+    <PkgPly Condition=" '$(PkgPly)' == '' ">/Users/mmeckes/.nuget/packages/ply/0.3.1</PkgPly>
+    <PkgMicrosoft_SourceLink_Common Condition=" '$(PkgMicrosoft_SourceLink_Common)' == '' ">/Users/mmeckes/.nuget/packages/microsoft.sourcelink.common/1.1.1</PkgMicrosoft_SourceLink_Common>
+    <PkgMicrosoft_Build_Tasks_Git Condition=" '$(PkgMicrosoft_Build_Tasks_Git)' == '' ">/Users/mmeckes/.nuget/packages/microsoft.build.tasks.git/1.1.1</PkgMicrosoft_Build_Tasks_Git>
+    <PkgMicrosoft_SourceLink_GitLab Condition=" '$(PkgMicrosoft_SourceLink_GitLab)' == '' ">/Users/mmeckes/.nuget/packages/microsoft.sourcelink.gitlab/1.1.1</PkgMicrosoft_SourceLink_GitLab>
+    <PkgMicrosoft_SourceLink_GitHub Condition=" '$(PkgMicrosoft_SourceLink_GitHub)' == '' ">/Users/mmeckes/.nuget/packages/microsoft.sourcelink.github/1.1.1</PkgMicrosoft_SourceLink_GitHub>
+    <PkgMicrosoft_SourceLink_Bitbucket_Git Condition=" '$(PkgMicrosoft_SourceLink_Bitbucket_Git)' == '' ">/Users/mmeckes/.nuget/packages/microsoft.sourcelink.bitbucket.git/1.1.1</PkgMicrosoft_SourceLink_Bitbucket_Git>
+    <PkgMicrosoft_SourceLink_AzureRepos_Git Condition=" '$(PkgMicrosoft_SourceLink_AzureRepos_Git)' == '' ">/Users/mmeckes/.nuget/packages/microsoft.sourcelink.azurerepos.git/1.1.1</PkgMicrosoft_SourceLink_AzureRepos_Git>
+    <PkgGiraffe Condition=" '$(PkgGiraffe)' == '' ">/Users/mmeckes/.nuget/packages/giraffe/6.0.0</PkgGiraffe>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">/Users/mmeckes/.nuget/packages/awssdk.core/3.7.12.20</PkgAWSSDK_Core>
+    <PkgAWSSDK_DynamoDBv2 Condition=" '$(PkgAWSSDK_DynamoDBv2)' == '' ">/Users/mmeckes/.nuget/packages/awssdk.dynamodbv2/3.7.3.67</PkgAWSSDK_DynamoDBv2>
+    <PkgFSharp_AWS_DynamoDB Condition=" '$(PkgFSharp_AWS_DynamoDB)' == '' ">/Users/mmeckes/.nuget/packages/fsharp.aws.dynamodb/0.11.1-beta</PkgFSharp_AWS_DynamoDB>
+    <PkgAmazon_Lambda_AspNetCoreServer Condition=" '$(PkgAmazon_Lambda_AspNetCoreServer)' == '' ">/Users/mmeckes/.nuget/packages/amazon.lambda.aspnetcoreserver/7.2.0</PkgAmazon_Lambda_AspNetCoreServer>
+  </PropertyGroup>
+</Project>
