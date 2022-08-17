@@ -21,95 +21,14 @@
     <None Include="aws-lambda-tools-defaults.json" />
     <None Include="Readme.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="obj\Debug\net6.0\serverless-giraffe-demo.fsproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\net6.0\serverless-giraffe-demo.genruntimeconfig.cache" />
-    <Content Include="obj\Debug\net6.0\serverless-giraffe-demo.pdb" />
-    <Content Include="obj\Debug\net6.0\serverless-giraffe-demo.MvcApplicationPartsAssemblyInfo.cache" />
-    <Content Include="obj\Debug\net6.0\serverless-giraffe-demo.dll" />
-    <Content Include="obj\Debug\net6.0\serverless-giraffe-demo.AssemblyInfoInputs.cache" />
-    <Content Include="obj\Debug\net6.0\serverless-giraffe-demo.fsproj.AssemblyReference.cache" />
-    <Content Include="obj\Debug\net6.0\serverless-giraffe-demo.fsproj.CoreCompileInputs.cache" />
-    <Content Include="obj\Debug\net6.0\apphost" />
-    <Content Include="obj\Debug\net6.0\serverless-giraffe-demo.assets.cache" />
-    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.fs" />
-    <Content Include="obj\Debug\net6.0\serverless-giraffe-demo.fsproj.CopyComplete" />
-    <Compile Include="obj\Debug\net6.0\serverless-giraffe-demo.AssemblyInfo.fs" />
-    <Content Include="obj\Debug\net6.0\staticwebassets.build.json" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\Amazon.Lambda.AspNetCoreServer.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\FSharp.Core.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\Microsoft.IO.RecyclableMemoryStream.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\Amazon.Lambda.Core.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\Newtonsoft.Json.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\serverless-giraffe-demo.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\Amazon.Lambda.Serialization.SystemTextJson.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\Amazon.Lambda.ApplicationLoadBalancerEvents.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\Ply.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\Amazon.Lambda.Logging.AspNetCore.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\Giraffe.ViewEngine.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\Utf8Json.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\Giraffe.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\R2R\Amazon.Lambda.APIGatewayEvents.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\serverless-giraffe-demo.fsproj.FileListAbsolute.txt" />
-    <Content Include="obj\Release\net6.0\linux-x64\PublishOutputs.f7d50e71d2.txt" />
-    <Content Include="obj\Release\net6.0\linux-x64\serverless-giraffe-demo.genruntimeconfig.cache" />
-    <Content Include="obj\Release\net6.0\linux-x64\serverless-giraffe-demo.pdb" />
-    <Content Include="obj\Release\net6.0\linux-x64\serverless-giraffe-demo.MvcApplicationPartsAssemblyInfo.cache" />
-    <Content Include="obj\Release\net6.0\linux-x64\serverless-giraffe-demo.dll" />
-    <Content Include="obj\Release\net6.0\linux-x64\serverless-giraffe-demo.AssemblyInfoInputs.cache" />
-    <Content Include="obj\Release\net6.0\linux-x64\serverless-giraffe-demo.fsproj.AssemblyReference.cache" />
-    <Content Include="obj\Release\net6.0\linux-x64\apphost" />
-    <Content Include="obj\Release\net6.0\linux-x64\serverless-giraffe-demo.assets.cache" />
-    <Compile Include="obj\Release\net6.0\linux-x64\.NETCoreApp,Version=v6.0.AssemblyAttributes.fs" />
-    <Content Include="obj\Release\net6.0\linux-x64\serverless-giraffe-demo.fsproj.CopyComplete" />
-    <Compile Include="obj\Release\net6.0\linux-x64\serverless-giraffe-demo.AssemblyInfo.fs" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\Amazon.Lambda.AspNetCoreServer.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\FSharp.Core.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\Microsoft.IO.RecyclableMemoryStream.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\Amazon.Lambda.Core.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\Newtonsoft.Json.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\serverless-giraffe-demo.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\Amazon.Lambda.Serialization.SystemTextJson.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\Amazon.Lambda.ApplicationLoadBalancerEvents.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\Ply.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\Amazon.Lambda.Logging.AspNetCore.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\Giraffe.ViewEngine.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\Utf8Json.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\Giraffe.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\R2R\Amazon.Lambda.APIGatewayEvents.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\serverless-giraffe-demo.fsproj.FileListAbsolute.txt" />
-    <Content Include="obj\Release\net6.0\linux-arm64\PublishOutputs.f7d50e71d2.txt" />
-    <Content Include="obj\Release\net6.0\linux-arm64\serverless-giraffe-demo.genruntimeconfig.cache" />
-    <Content Include="obj\Release\net6.0\linux-arm64\serverless-giraffe-demo.pdb" />
-    <Content Include="obj\Release\net6.0\linux-arm64\serverless-giraffe-demo.MvcApplicationPartsAssemblyInfo.cache" />
-    <Content Include="obj\Release\net6.0\linux-arm64\serverless-giraffe-demo.dll" />
-    <Content Include="obj\Release\net6.0\linux-arm64\serverless-giraffe-demo.AssemblyInfoInputs.cache" />
-    <Content Include="obj\Release\net6.0\linux-arm64\serverless-giraffe-demo.fsproj.AssemblyReference.cache" />
-    <Content Include="obj\Release\net6.0\linux-arm64\apphost" />
-    <Content Include="obj\Release\net6.0\linux-arm64\serverless-giraffe-demo.assets.cache" />
-    <Compile Include="obj\Release\net6.0\linux-arm64\.NETCoreApp,Version=v6.0.AssemblyAttributes.fs" />
-    <Content Include="obj\Release\net6.0\linux-arm64\serverless-giraffe-demo.fsproj.CopyComplete" />
-    <Compile Include="obj\Release\net6.0\linux-arm64\serverless-giraffe-demo.AssemblyInfo.fs" />
-    <Content Include="obj\Release\net6.0\staticwebassets.publish.json" />
-    <Content Include="obj\Release\net6.0\staticwebassets.build.json" />
-    <Content Include="obj\staticwebassets.pack.sentinel" />
-    <Content Include="obj\project.assets.json" />
-    <Content Include="obj\project.packagespec.json" />
-    <Content Include="obj\serverless-giraffe-demo.fsproj.nuget.dgspec.json" />
-    <Content Include="obj\project.nuget.cache" />
-    <Content Include="obj\rider.project.restore.info" />
-    <Content Include="obj\serverless-giraffe-demo.fsproj.nuget.g.targets" />
-    <Content Include="obj\serverless-giraffe-demo.fsproj.nuget.g.props" />
+  <ItemGroup> 
     <Compile Include="AppHandlers.fs" />
     <Compile Include="Types.fs" />
     <Compile Include="Setup.fs" />
-    <Content Remove="obj\**" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="obj\Debug\net6.0\staticwebassets" />
-    <Folder Include="obj\Release\net6.0\linux-arm64\staticwebassets" />
-    <Folder Include="obj\Release\net6.0\linux-x64\staticwebassets" />
     <Content Include="template.yaml" />
+    <Content Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="obj\**" />
